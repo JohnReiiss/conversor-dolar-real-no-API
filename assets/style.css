@@ -1,0 +1,152 @@
+:root {
+    --background: #FFF;
+    --primary: #333333;
+    --foreground: #f1d2f0;
+    --secondary: black;
+    --secondary-light: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+
+
+header {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+.logo {
+    height: 16rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+main section {
+    display: flex;
+    font-weight: bold;
+    background-color: var(--foreground);
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 80rem;
+}
+
+main section span {
+    display: block;
+    margin-right: 1rem;
+    color: var(--secondary-light);
+    font-size: 5rem;
+}
+
+main section input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    color: var(--secondary);
+    font-size: 5rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--secondary);
+}
+
+/* Media Queries */
+/* Para smartphones com telas de até 450px */
+@media (max-width: 400px) {
+    .logo {
+        height: 12rem;
+    }
+
+    main {
+        margin: 2rem;
+    }
+
+    main section {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    main section span {
+        margin-right: 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    main section input {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+/* Smartphones com telas de até 760px */
+@media (max-width: 760px) {
+    .logo {
+        height: 14rem;
+    }
+
+    main {
+        margin: 2.5rem;
+    }
+
+    main section {
+        flex-direction: column;
+        padding: 0.75rem;
+    }
+
+    main section span {
+        margin-right: 0;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    main section input {
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .logo {
+        height: 15rem;
+    }
+
+    main {
+        margin: 3rem 2rem;
+    }
+
+    main section {
+        padding: 1rem;
+        max-width: 70rem;
+    }
+
+    main section span {
+        font-size: 4.5rem;
+    }
+
+    main section input {
+        font-size: 4.5rem;
+    }
+}
