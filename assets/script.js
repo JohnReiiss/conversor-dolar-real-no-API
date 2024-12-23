@@ -1,4 +1,4 @@
-let dolar = 6.15;
+let dolar = 6.30;
 
 let usdInput = document.querySelector("#usd");
 let blrInput = document.querySelector("#brl");
@@ -19,7 +19,7 @@ blrInput.addEventListener("blur", () => {
     blrInput.value = formatCurrency(blrInput.value)
 })
 
-usdInput.value = "6,15";
+usdInput.value = "6,30";
 convert("usd-to-brl");
 
 // Funções
