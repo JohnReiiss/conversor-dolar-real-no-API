@@ -7,8 +7,8 @@ Bem-vindo ao **Conversor Dólar-Real**! Este projeto foi desenvolvido para forne
 O Conversor Dólar-Real permite:
 
 - **Conversão instantânea** 💲: Insira um valor em dólar e veja a conversão imediata para real.
-- **Atualização em tempo real** 🔄: Utiliza uma API para buscar a cotação mais recente do dólar.
 - **Interface intuitiva** 🎨: Design simples e responsivo para melhor experiência do usuário.
+- ![image](https://github.com/user-attachments/assets/e5606e5f-7eba-4f3c-af20-4c1f3524410c)
 
 ## Como Funciona 🛠️
 
